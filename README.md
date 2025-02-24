@@ -19,7 +19,7 @@
 🚀 Como Rodar o Projeto
 🔽 1. Clone o Repositório
 
-git clone https://github.com/seu-usuario/fast_gas.git
+git clone https://github.com/jeffesondiogosilva/fast_gas.git
 cd fast_gas
 🔧 2. Instale as Dependências
 

@@ -18,41 +18,27 @@
 
 🚀 Como Rodar o Projeto
 🔽 1. Clone o Repositório
-sh
-Copiar
-Editar
+
 git clone https://github.com/seu-usuario/fast_gas.git
 cd fast_gas
 🔧 2. Instale as Dependências
-sh
-Copiar
-Editar
+
 composer install
 npm install && npm run dev
 🔑 3. Configure o Ambiente
 Copie o arquivo .env.example para .env e edite as configurações:
 
-sh
-Copiar
-Editar
 cp .env.example .env
 Depois, gere a chave da aplicação:
 
-sh
-Copiar
-Editar
 php artisan key:generate
 🗄 4. Configure o Banco de Dados
-sh
-Copiar
-Editar
+
 php artisan migrate --seed
 (O --seed adiciona dados fictícios para testes, se houver um seeder configurado.)
 
 ▶ 5. Inicie o Servidor
-sh
-Copiar
-Editar
+
 php artisan serve
 Agora, acesse http://127.0.0.1:8000 no navegador! 🎉
 
